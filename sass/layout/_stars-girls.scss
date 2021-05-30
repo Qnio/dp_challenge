@@ -1,0 +1,238 @@
+/**
+ * ----------------------------------------
+ *              STAR GIRLS
+ *    this is layout that will be on top 
+ *        of the main _layout page
+ * ----------------------------------------
+ */
+
+.stars-girls {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: fit-content;
+  background-color: transparent;
+  z-index: 500;
+
+  &__girl-rocket {
+    position: absolute;
+    top: 23.09rem;
+    left: 5rem;
+    animation: moveInBottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+    @include respond(xxl) {
+      top: 27.09rem;
+      &--size {
+        height: 50rem;
+      }
+    }
+    @include respond(lg) {
+      top: 32rem;
+      &--size {
+        height: 40rem;
+      }
+    }
+    @include respond(md) {
+      top: 36rem;
+      &--size {
+        height: 30rem;
+      }
+    }
+    @include respond(sm) {
+      top: 40rem;
+      left: 2rem;
+      &--size {
+        height: 20rem;
+      }
+    }
+  }
+
+  &__girl-megaphone {
+    position: absolute;
+    top: 45.9rem;
+    right: 2.09rem;
+    animation: moveInRight 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+    @include respond(xxl) {
+      top: 42rem;
+      &--size {
+        height: 50rem;
+      }
+    }
+    @include respond(lg) {
+      top: 40rem;
+      &--size {
+        height: 40rem;
+      }
+    }
+    @include respond(md) {
+      top: 36rem;
+      &--size {
+        height: 30rem;
+      }
+    }
+    @include respond(sm) {
+      top: 28rem;
+      right: 10rem;
+      &--size {
+        height: 20rem;
+      }
+    }
+  }
+
+  &__star {
+    position: absolute;
+    @media only screen and (max-width: 360px) {
+      display: none;
+    }
+
+    // @include respond(sm) {
+    //   display: none;
+    // }
+    // width: max-content;
+
+    @include respond(xxl) {
+      img {
+        width: 80%;
+      }
+    }
+
+    @include respond(lg) {
+      img {
+        width: 70%;
+      }
+    }
+
+    @include respond(md) {
+      img {
+        width: 60%;
+      }
+    }
+
+    @include respond(sm) {
+      img {
+        width: 50%;
+      }
+    }
+
+    &--1 {
+      top: 4.37rem;
+      right: 111rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1s
+        both;
+      @include respond(sm) {
+        top: 6.8rem;
+        right: 26rem;
+      }
+    }
+    &--2 {
+      top: 5.73rem;
+      right: 66.44rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.2s
+        both;
+      @include respond(lg) {
+        display: none;
+      }
+    }
+    &--3 {
+      top: 8.2rem;
+      right: 85.59rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.2s
+        both;
+    }
+    &--4 {
+      top: 14.71rem;
+      right: 138.27rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.4s
+        both;
+    }
+    &--5 {
+      top: 16.97rem;
+      right: 31.65rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.5s
+        both;
+
+      @include respond(sm) {
+        top: 15rem;
+      }
+    }
+    &--6 {
+      top: 24.13rem;
+      right: 56.83rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.6s
+        both;
+
+      @include respond(sm) {
+        top: 28rem;
+        right: 50rem;
+      }
+    }
+    &--7 {
+      top: 21.71rem;
+      left: 8.9rem;
+
+      animation: flicker-in-1 2s linear 1.7 both;
+      @include respond(sm) {
+        top: 18rem;
+      }
+    }
+    &--8 {
+      top: 33.01rem;
+      right: 118.72rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.8s
+        both;
+    }
+
+    &--9 {
+      top: 35.07rem;
+      right: 8.04rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.9s
+        both;
+
+      @include respond(sm) {
+        top: 30rem;
+      }
+    }
+
+    &--10 {
+      top: 38.57rem;
+      right: 30.8rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 2s
+        both;
+
+      @include respond(sm) {
+        right: 15rem;
+      }
+    }
+
+    &--11 {
+      top: 73.76rem;
+      right: 24.77rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.7s
+        both;
+      @include respond(sm) {
+        top: 78rem;
+        right: 16rem;
+      }
+    }
+    &--12 {
+      top: 88.17rem;
+      left: 22.57rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.2s
+        both;
+
+      @include respond(sm) {
+        top: 89rem;
+      }
+    }
+    &--13 {
+      top: 104.17rem;
+      left: 8.6rem;
+      animation: scale-up-center 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1.4s
+        both;
+
+      @include respond(sm) {
+        top: 93rem;
+      }
+    }
+  }
+}

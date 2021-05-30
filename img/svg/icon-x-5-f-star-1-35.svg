@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.7" height="32.4" viewBox="0 0 30.7 32.4">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_4354" d="M0 0H30.7V32.4H0z" data-name="Rectangle 4354" transform="translate(343.3 717.7)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{clip-path:url(#prefix__clip-path)}.prefix__cls-2{fill:#231f20}
+        </style>
+    </defs>
+    <g id="prefix__Icon_x5F_Star1_35_" transform="translate(-343.3 -717.7)">
+        <g id="prefix__Group_6547" data-name="Group 6547">
+            <g id="prefix__Group_6546" class="prefix__cls-1" data-name="Group 6546">
+                <g id="prefix__Group_6542" class="prefix__cls-1" data-name="Group 6542">
+                    <path id="prefix__Path_9820" d="M355.8 744v-3.3c.1-1.8 1-2.9 2.3-3a3.258 3.258 0 0 1 2.9 2.3 5.9 5.9 0 0 1 .2 1.4c.2 2 .3 4.1.6 6.1.2 1.6-.4 2.4-1.9 2.5a3.422 3.422 0 0 1-3.9-3.5c0-.9-.1-1.7-.1-2.6h-.1z" class="prefix__cls-2" data-name="Path 9820"/>
+                </g>
+                <g id="prefix__Group_6543" class="prefix__cls-1" data-name="Group 6543">
+                    <path id="prefix__Path_9821" d="M374 733.4c-.3.5-.7.8-.9 1.2-1.3 2.6-1.9 2.8-4.8 2.3a26.358 26.358 0 0 0-2.8-.2 19.676 19.676 0 0 1-3.5-.5c-.7-.2-1.5-.7-1.3-1.7.2-.9.5-1.8 1.7-2 2.3-.4 4.6-.9 6.9-1.3a4.424 4.424 0 0 1 4.7 2.2" class="prefix__cls-2" data-name="Path 9821"/>
+                </g>
+                <g id="prefix__Group_6544" class="prefix__cls-1" data-name="Group 6544">
+                    <path id="prefix__Path_9822" d="M356.5 734.8a8.879 8.879 0 0 1-5.4 1.5c-1.2-.1-2.5.1-3.7.1a5.866 5.866 0 0 1-2.3-.4 2.216 2.216 0 0 1-1.7-2.5 2.689 2.689 0 0 1 2.4-2 11.4 11.4 0 0 1 2.6.2 7.438 7.438 0 0 0 3.9-.3c1.9-.8 3.8.8 4.2 3.4" class="prefix__cls-2" data-name="Path 9822"/>
+                </g>
+                <g id="prefix__Group_6545" class="prefix__cls-1" data-name="Group 6545">
+                    <path id="prefix__Path_9823" d="M357.3 723.7c0-1.3-.1-2.5 0-3.8.2-1.5 1-2.3 2.3-2.2a2.519 2.519 0 0 1 2.5 2.4c.1 2.1.2 4.2.2 6.3 0 .3-.1.6-.1.9-.3 1.7-.8 2.3-1.8 2.3-1.9 0-3-.8-3.2-2.4-.1-1.2 0-2.4 0-3.5z" class="prefix__cls-2" data-name="Path 9823"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

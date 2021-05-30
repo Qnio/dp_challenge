@@ -1,0 +1,70 @@
+/**
+ * ----------------------------------------
+ *          CHALLENGE #1 COMPONENT
+ * ----------------------------------------
+ */
+.challenge-name__icon {
+  width: 6.35rem;
+  height: 6.35rem;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+
+  z-index: 100;
+
+  @include respond(xl) {
+    width: 6rem;
+    height: 6rem;
+    &--size {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+  @include respond(xxxl) {
+    width: 7rem;
+    height: 7rem;
+    &--size {
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+}
+
+.challenge-name__title {
+  display: flex;
+  flex-direction: column;
+}
+.title__item {
+  padding-bottom: 0.5rem;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+}
+
+/**
+ * ----------------------------------------
+ *          CHALLENGE TOP TITLE
+ * ----------------------------------------
+ */
+.chalenge-completed-title {
+  position: relative;
+  width: 93.7rem;
+  height: 7.1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 9.27rem;
+
+  @include respond(md) {
+    width: 100%;
+  }
+}
+
+.bg_black {
+  display: inline;
+  background-color: var(--black);
+  padding: 0.1rem 0.65rem;
+}
+
+.shift {
+  padding-left: 2.35rem;
+  margin-left: -2.35rem;
+}

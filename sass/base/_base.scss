@@ -1,0 +1,51 @@
+:root {
+  --light-pink: #f2d8e1;
+  --black: #000000;
+  --white: #ffffff;
+  --dull-pink: #d389b1;
+  --dark-blue-grey: #252759;
+  --greyish-brown: #414141;
+  --primary-font: 'OpenSans';
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  //using prcent value to not overide browser fon size setting
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+  //desktop first pattern from biggest to smallest
+
+  @include respond(xl) {
+    // < 1200px
+    //1rem = 8px 8/16 = 50%
+    font-size: 50%;
+  }
+
+  @include respond(lg) {
+    // < 992px
+    font-size: 45%;
+  }
+
+  @include respond(md) {
+    // < 768px
+    font-size: 40%;
+  }
+
+  @include respond(sm) {
+    // < 576px
+    font-size: 35%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}

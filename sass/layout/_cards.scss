@@ -1,0 +1,37 @@
+/**
+ * ----------------------------------------
+ *                CARDS
+ * ----------------------------------------
+ */
+
+.cards-container {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 5.49rem;
+  margin-bottom: 10.4rem;
+
+  &__item {
+    margin-right: 2.5rem;
+    width: 22.4rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  @include respond(xl) {
+    padding: 0 10rem;
+  }
+  @include respond(sm) {
+    padding: 0 2rem;
+  }
+}
+
+.card-img {
+  width: 22.4rem;
+}

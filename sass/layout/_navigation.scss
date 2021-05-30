@@ -1,0 +1,98 @@
+/**
+ * ----------------------------------------
+ *          NAVIGATION MENU
+ * ----------------------------------------
+ */
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 12.23rem;
+
+  @include respond(md) {
+    justify-content: flex-end;
+  }
+
+  @include respond(sm) {
+    padding-right: 5rem;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    @include respond(md) {
+      justify-content: flex-end;
+      padding-right: 8rem;
+    }
+    @include respond(sm) {
+      justify-content: flex-end;
+      padding-right: 0rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.1rem;
+    // width: 12.68rem;
+    // height: 12.68rem;
+
+    &--hide {
+      @include respond(md) {
+        display: none;
+      }
+    }
+    @include respond(xxl) {
+      margin-left: 2.5rem;
+    }
+    @include respond(xl) {
+      margin-left: 2rem;
+    }
+  }
+
+  //navigation menu icons are in different size
+  //this is workaround to make them look nice when resizing
+  //in most cases I'd make them same size using graphic tools,
+  //but I'm not sure if in this challenge it is on purpose
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      transform: scale(0.9);
+    }
+    &--group-1 {
+      @include respond(xxl) {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+    &--group-2 {
+      @include respond(xxl) {
+        width: 6rem;
+        height: 6rem;
+      }
+      @include respond(xl) {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+    &--group-3 {
+      @include respond(xl) {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+}
+
+//------------------NAVIGATION COMPONENT-----------------------END---//

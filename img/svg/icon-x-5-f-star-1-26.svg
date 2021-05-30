@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.6" height="21.8" viewBox="0 0 20.6 21.8">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_4399" d="M0 0H20.6V21.8H0z" data-name="Rectangle 4399" transform="translate(269.3 419.7)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{clip-path:url(#prefix__clip-path)}.prefix__cls-2{fill:#231f20}
+        </style>
+    </defs>
+    <g id="prefix__Icon_x5F_Star1_26_" transform="translate(-160.3 -419.7)">
+        <g id="prefix__Group_6601" data-name="Group 6601" transform="translate(-109)">
+            <g id="prefix__Group_6600" class="prefix__cls-1" data-name="Group 6600">
+                <g id="prefix__Group_6596" class="prefix__cls-1" data-name="Group 6596">
+                    <path id="prefix__Path_9856" d="M277.7 437.3v-2.2c.1-1.2.7-1.9 1.6-2a2.3 2.3 0 0 1 2 1.6 2.768 2.768 0 0 1 .1.9c.1 1.4.2 2.7.4 4.1.1 1.1-.2 1.6-1.3 1.7a2.293 2.293 0 0 1-2.6-2.3c-.1-.6-.1-1.2-.2-1.8z" class="prefix__cls-2" data-name="Path 9856"/>
+                </g>
+                <g id="prefix__Group_6597" class="prefix__cls-1" data-name="Group 6597">
+                    <path id="prefix__Path_9857" d="M289.9 430.2a5.546 5.546 0 0 1-.6.8c-.9 1.7-1.3 1.9-3.2 1.6-.6-.1-1.3-.1-1.9-.2a16.01 16.01 0 0 1-2.3-.3c-.5-.1-1-.4-.9-1.1a1.6 1.6 0 0 1 1.1-1.4c1.5-.3 3.1-.6 4.6-.9a3.176 3.176 0 0 1 3.2 1.5" class="prefix__cls-2" data-name="Path 9857"/>
+                </g>
+                <g id="prefix__Group_6598" class="prefix__cls-1" data-name="Group 6598">
+                    <path id="prefix__Path_9858" d="M278.2 431.1a5.489 5.489 0 0 1-3.7 1 20.9 20.9 0 0 0-2.5.1 6.8 6.8 0 0 1-1.5-.2c-.9-.3-1.3-.9-1.1-1.7a1.622 1.622 0 0 1 1.6-1.3 9.149 9.149 0 0 1 1.7.1 4.639 4.639 0 0 0 2.6-.2c1.3-.5 2.6.5 2.9 2.2" class="prefix__cls-2" data-name="Path 9858"/>
+                </g>
+                <g id="prefix__Group_6599" class="prefix__cls-1" data-name="Group 6599">
+                    <path id="prefix__Path_9859" d="M278.7 423.7a20.851 20.851 0 0 1 0-2.5 1.468 1.468 0 0 1 1.5-1.5 1.735 1.735 0 0 1 1.7 1.6c.1 1.4.1 2.8.1 4.2 0 .2-.1.4-.1.6-.2 1.1-.5 1.5-1.2 1.5-1.3 0-2-.5-2.2-1.6a19.217 19.217 0 0 1 0-2.4h.2z" class="prefix__cls-2" data-name="Path 9859"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

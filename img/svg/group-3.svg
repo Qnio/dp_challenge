@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_3" width="56.944" height="40" data-name="Group 3" viewBox="0 0 56.944 40">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#fff;stroke-linecap:square;stroke-miterlimit:10;stroke-width:3px}.prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group" transform="translate(17.143)">
+        <path id="prefix__Line" d="M1.111 2.586H38.3" class="prefix__cls-1"/>
+        <path id="prefix__Line_Copy" d="M1.111 2.586H38.3" class="prefix__cls-1" data-name="Line Copy" transform="translate(0 17.143)"/>
+        <path id="prefix__Line_Copy_2" d="M1.111 2.586H38.3" class="prefix__cls-1" data-name="Line Copy 2" transform="translate(0 34.286)"/>
+    </g>
+    <circle id="prefix__Oval" cx="4.286" cy="4.286" r="4.286" class="prefix__cls-2"/>
+    <circle id="prefix__Oval_Copy" cx="4.286" cy="4.286" r="4.286" class="prefix__cls-2" data-name="Oval Copy" transform="translate(0 15.714)"/>
+    <circle id="prefix__Oval_Copy_2" cx="4.286" cy="4.286" r="4.286" class="prefix__cls-2" data-name="Oval Copy 2" transform="translate(0 31.429)"/>
+</svg>
